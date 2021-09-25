@@ -1,5 +1,7 @@
-import React from "react"
+import { useCallback, useEffect, useState } from "react";
+import sanityClient from "../client.js";
 import image from "../portb.jpg";
+
 
 
 export default function Post() {

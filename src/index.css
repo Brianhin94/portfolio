@@ -1,7 +1,7 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css");
-
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css?family=Trirong");
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 
 .cursive {
   font-family: "Trirong", cursive;
@@ -17,3 +17,149 @@
 .home-name {
   font-size: 150px;
 }
+
+:root {
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #21ce99;
+}
+
+body {
+  font-family: Poppins;
+  background: #040d14;
+  background: var(--dark);
+  line-height: 26px;
+  margin: 0;
+}
+
+h1 {
+  color: #21ce99;
+  color: var(--green);
+}
+
+.App {
+  height: 75vh;
+  margin-top: 15vh;
+}
+
+form {
+  justify-content: center;
+  margin-top: 20px;
+  background: #040d14;
+  background: var(--dark);
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 25px 10px;
+  background-color: #040d14;
+  background-color: var(--dark);
+  box-shadow: 0 0 0 2px #21ce99;
+  box-shadow: 0 0 0 2px var(--green);
+  border: none;
+  color: #21ce99;
+  color: var(--green);
+}
+
+.formInput:focus {
+  background-color: #040d14;
+  background-color: var(--dark);
+  outline: none;
+  box-shadow: 0 0 0 2px #21ce99;
+  box-shadow: 0 0 0 2px var(--green);
+  color: #d0d1d3;
+  color: var(--light);
+}
+
+.formInput::-webkit-input-placeholder {
+  color: #21ce99;
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:-ms-input-placeholder {
+  color: #21ce99;
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput::placeholder {
+  color: #21ce99;
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::-webkit-input-placeholder {
+  color: #d0d1d3;
+  color: var(--light);
+  opacity: 1;
+}
+
+.formInput:focus:-ms-input-placeholder {
+  color: #d0d1d3;
+  color: var(--light);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: #d0d1d3;
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: #21ce99;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  background-color: #040d14;
+  background-color: var(--dark);
+  color: #21ce99 !important;
+  color: var(--green) !important;
+  padding: 15px 50px;
+  border: 2px solid #21ce99;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.submit-btn:hover {
+  background-color: #21ce99;
+  background-color: var(--green);
+  color: #040d14 !important;
+  color: var(--dark) !important;
+  border: 2px solid #21ce99;
+  border: 2px solid var(--green);
+}
+
+.submit-btn:disabled:hover {
+  background-color: #040d14;
+  background-color: var(--dark);
+  color: #21ce99 !important;
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+
