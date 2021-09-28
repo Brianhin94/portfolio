@@ -7,36 +7,36 @@ import { SocialIcon } from "react-social-icons";
 export default function Navbar() {
 
   return (
-    <header className="sticky top-0 fixed z-10 bg-blue-600">
+    <header className="sticky top-0 fixed z-10 bg-green-600">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="flex flex-col justify-center items-center px-3 mr-4 text-blue-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+            className="flex flex-col justify-center items-center px-3 mr-4 text-black-500 hover:text-black-900 text-4xl font-bold cursive tracking-widest"
 
           >
             Brian Hinchey
           </NavLink>
           <NavLink
             to="/post"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-Purple-800"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
+            activeClassName="text-blue-100 bg-black-700"
           >
             Skills
           </NavLink>
           <NavLink
             to="/project"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
+            activeClassName="text-blue-100 bg-black-700"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-blue-100 bg-blue-700"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
+            activeClassName="text-blue-100 black-700"
           >
             About Me
           </NavLink>
@@ -49,7 +49,7 @@ export default function Navbar() {
           </div>
 
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className=" align-baseline py-6 px-6 my-8">
           <SocialIcon
             url="https://www.instagram.com/callmederry/"
             className="mr-4"

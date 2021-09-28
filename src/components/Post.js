@@ -5,11 +5,11 @@ import content from '../content';
 export default function Stack() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center font-dosis"
+      className=" bg-green-500 text-black-600 min-h-screen flex flex-col items-center font-dosis"
       id="stack"
     >
-      <h1 className="text-5xl font-bold">Stack I use</h1>
-      <div className="flex flex-wrap justify-center mt-10">
+      
+      <div className="my-2 flex flex-wrap justify-center mt-10">
         {content.stack.tech.map((tech, index) => {
           return (
             <span
@@ -22,7 +22,7 @@ export default function Stack() {
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10">
+      <p className="w-11/12 md:max-w-xl text-xl bg-green-500 text-center mt-10">
         {content.stack.desc}
       </p>
     </div>

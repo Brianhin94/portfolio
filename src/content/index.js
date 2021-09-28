@@ -1,27 +1,5 @@
 export default {
-    nav: {
-      logo: 'CC',
-      links: [
-        { text: 'Work', to: 'mywork' },
-        { text: 'Contact', to: 'mycontact' },
-      ],
-    },
-    header: {
-      img:
-        'https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80',
-      text: ['Hi!', "It's me Random.", 'I am '],
-      typical: [
-        'web developer. 🖥',
-        2000,
-        'Youtuber. 📹',
-        2000,
-        'Mobile Developer',
-        2000,
-      ],
-      btnText: 'Discover More',
-    },
-  
-    stack: {
+stack: {
       title: 'Stack',
       tech: [
         {
@@ -38,9 +16,17 @@ export default {
         },
         {
           img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png',
-          alt: 'node',
+          alt: 'nodejs',
+        },
+        {
+          img: 'https://i.imgur.com/DJSN9ak.png',
+          alt: 'vue',
+        },
+        {
+          img: 'https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png',
+          alt: 'tailwindcss',
         },
       ],
-      desc: `Through the General Assembly Software Engineering Immersive I became very familiar with the MERN stack with a focus on Front-end development. `,
+      desc: `Through the General Assembly Software Engineering Immersive I became familiar with these technologies to better my Front-end development. `,
     },
   };

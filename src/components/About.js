@@ -13,7 +13,6 @@ const About = () => {
     formState: { errors }
   } = useForm();
 
-  // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
     toast('Form sent!', {
       position: 'bottom-right',
@@ -28,7 +27,6 @@ const About = () => {
   };
   console.log("sucess")
 
-  // Function called on submit that uses emailjs to send email of valid contact form
   const onSubmit = async (data) => {
     const { name, email, subject, message } = data;
     try {
@@ -53,7 +51,7 @@ const About = () => {
     }
   };
   return (
-    <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+    <section className="container mx-auto my-1 justify-content center p-10 margin">
       <div className='About'>
         <div className='container'>
           <div className='row'>
