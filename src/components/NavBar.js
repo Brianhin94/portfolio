@@ -14,7 +14,7 @@ export default function Navbar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="flex flex-col justify-center items-center px-3 mr-4 text-black-500 hover:text-black-900 text-4xl font-bold cursive tracking-widest"
+            className="flex flex-col justify-center items-center px-3 mr-4 text-black-500 hover:text-red-800 text-4xl font-bold cursive tracking-widest"
 
           >
             Brian Hinchey
@@ -38,7 +38,7 @@ export default function Navbar() {
             className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
             activeClassName="text-blue-100 black-700"
           >
-            About Me
+            Contact Me
           </NavLink>
           <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
             <div className="flex  md:flex-row justify-between items-center">
