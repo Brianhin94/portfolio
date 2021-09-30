@@ -1,27 +1,19 @@
 import React from "react";
 import image from "../profile.jpg";
 
+
 export default function Home() {
   return (
     <main>
-      <section class="object-right">
+      
 
-        <div class="bg-green-600 w-full min-h-screen">
-          <div class=" max-w-6xl mx-auto px-4 py-6 flex justify-between md:flex-no-wrap flex-wrap">
-            <div class="md:w-1/3 w-full ">
-              <img src={image} alt="Profile" class=" mx-auto "></img>
+        <div class="bg-green-400 w-full min-h-screen">
+          <div class=" max-w-6xl mx-auto px-4 py-6 ">
+            <div class=" w-full flex flex-row ">
+            <img class="rounded-full w-full md:w-1/3" src={image} alt="Profile image"/>
 
-
-
-
-              <section class="mt-14">
-                <div class="h-1 bg-green w-48 my-4">
-                </div>
-                <p class="text-black">I am a motivated and aspiring web developer with branding and trends knowledge. My goal is to learn more knowledge of the software industry and use my conversation skills to help Clients by exceeding their expectations.</p>
-              </section>
-
-              <section class="mt-  justify-end mx-auto ">
-                <h3 class="uppercase text-black font-medium text-3xl">Specializations</h3>
+              <section class="mt-14 ml-14">
+              <h2 class="uppercase text-black font-medium text-3xl">Specializations</h2>
                 <div class="h-1 bg-green w-48 my-4">
                 </div>
                 <ul class="text-black list-disc list-inside">
@@ -30,6 +22,14 @@ export default function Home() {
                   <li>Design Thinking & Problem Solving </li>
                   <li>front-end interfaces which interact with backend APIs</li>
                 </ul>
+                <h2 class="uppercase text-black font-medium text-3xl">Specializations</h2>
+                <div class="h-1 bg-green w-48 my-4">
+                </div>
+                <div class="text-black list-disc list-inside">
+                 
+                  I am a motivated and aspiring web developer with branding and trends knowledge. My goal is to learn more knowledge of the software industry and use my conversation skills to help Clients by exceeding their expectations.</div>
+                
+                <h3 class="uppercase text-black font-small text-3xl">  </h3>
               </section>
             </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-      </section>
+     
     </main>
   );
 }

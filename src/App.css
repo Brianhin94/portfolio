@@ -2,6 +2,9 @@
     text-align: center;
     margin-right: 45em;
   }
+  img {
+    border-radius: 50%;
+  }
   
   .App-logo {
     height: 40vmin;
