@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import { init } from 'emailjs-com';
 init("user_QrVdDPzvELwAxlfkso8em");
 
-const About = () => {
+const Contact = () => {
   const {
     register,
     handleSubmit,
@@ -142,4 +142,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

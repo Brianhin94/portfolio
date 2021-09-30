@@ -35,7 +35,7 @@ export default function Navbar() {
             Projects
           </NavLink>
           <NavLink
-            to="/about"
+            to="/contact"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
             activeClassName="text-blue-100 black-700"
           >
