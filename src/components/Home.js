@@ -20,7 +20,7 @@ export default function Home() {
                  
                   <li>Front End Development</li>
                   <li>Design Thinking & Problem Solving </li>
-                  <li>front-end interfaces which interact with backend APIs</li>
+                  <li>Front-end interfaces which interact with backend APIs</li>
                 </ul>
                 <h2 class="uppercase text-black font-medium text-3xl">Specializations</h2>
                 <div class="h-1 bg-green w-48 my-4">
