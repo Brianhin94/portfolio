@@ -5,6 +5,7 @@ import content from '../content';
 export default function Stack() {
   return (
     <div
+
       className=" bg-green-500 text-black-600 min-h-screen flex flex-col items-center font-dosis"
       id="stack"
     >
