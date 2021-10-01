@@ -10,7 +10,7 @@ export default function Home() {
         <div class="bg-green-400 w-full min-h-screen">
           <div class=" max-w-6xl mx-auto px-4 py-6 ">
             <div class=" w-full flex flex-row ">
-            <img class="rounded-full w-full md:w-1/3" src={image} alt="Profile image"/>
+            <img class="rounded-full w-full md:w-1/3" src={image} alt="Profile"/>
 
               <section class="mt-14 ml-14">
               <h2 class="uppercase text-black font-medium text-3xl">Specializations</h2>
