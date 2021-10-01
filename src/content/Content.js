@@ -1,4 +1,4 @@
-export default {
+const stack = {
 stack: {
       title: 'Stack',
       tech: [
@@ -31,4 +31,5 @@ stack: {
     },
   };
 
+  export default stack;
   
