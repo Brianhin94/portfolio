@@ -1,3 +1,4 @@
+
 export default {
 stack: {
       title: 'Stack',
@@ -7,7 +8,7 @@ stack: {
           alt: 'mongodb',
         },
         {
-          img: process.env.PUBLIC_URL + '/logo512.png',
+          img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png',
           alt: 'react',
         },
         {
