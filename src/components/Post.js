@@ -1,6 +1,6 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import content from '../content';
+import content from '../content/Content';
 
 export default function Stack() {
   return (

@@ -1,4 +1,3 @@
-
 export default {
 stack: {
       title: 'Stack',
@@ -31,4 +30,5 @@ stack: {
       desc: `Through the General Assembly Software Engineering Immersive I became familiar with these technologies to better my Front-end development. `,
     },
   };
+
   

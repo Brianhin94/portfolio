@@ -5,6 +5,7 @@ import Singlepost from "./components/Singlepost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import index from './content/Content';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route component={Singlepost} path='/post/:slug' />
         <Route component={Post} path='/post' />
         <Route component={Project} path='/project' />
+        <index.js />
       </Switch>
     </BrowserRouter>
   )
