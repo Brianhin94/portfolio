@@ -22,7 +22,7 @@ export default function Home() {
                   <li>Design Thinking & Problem Solving </li>
                   <li>Front-end interfaces which interact with backend APIs</li>
                 </ul>
-                <h2 class="uppercase text-black font-medium text-3xl">Specializations</h2>
+                <h2 class="uppercase text-black font-medium text-3xl">About Me</h2>
                 <div class="h-1 bg-green w-48 my-4">
                 </div>
                 <div class="text-black list-disc list-inside">
