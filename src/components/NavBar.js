@@ -14,7 +14,7 @@ export default function Navbar() {
           <NavLink
             to="/"
             exact
-            activeClassName="text-white"
+            activeClassName="text-red"
             className="flex flex-col justify-center items-center px-3 mr-4 text-black-500 hover:text-red-800 text-4xl font-bold cursive tracking-widest"
 
           >
@@ -23,21 +23,21 @@ export default function Navbar() {
           <NavLink
             to="/post"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
-            activeClassName="text-blue-100 bg-black-700"
+            activeClassName="text-red bg-black-700"
           >
             Skills
           </NavLink>
           <NavLink
             to="/project"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
-            activeClassName="text-blue-100 bg-black-700"
+            activeClassName="text-red bg-black-700"
           >
             Projects
           </NavLink>
           <NavLink
             to="/contact"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-black-500 hover:text-red-800"
-            activeClassName="text-blue-100 black-700"
+            activeClassName="text-red black-700"
           >
             Contact Me
           </NavLink>

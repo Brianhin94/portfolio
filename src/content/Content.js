@@ -27,7 +27,7 @@ stack: {
           alt: 'tailwindcss',
         },
       ],
-      desc: `Through the General Assembly Software Engineering Immersive I became familiar with these technologies to better my Front-end development. `,
+      desc: `I prefer the fluidity and stability of these tools. However the software world allows us to explore and use so many tools in all that we do. I expect this page to grow greatly as I do.`,
     },
   };
 

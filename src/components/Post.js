@@ -6,7 +6,7 @@ export default function Stack() {
   return (
     <div
 
-      className=" bg-green-500 text-black-600 min-h-screen flex flex-col items-center font-dosis"
+      className="bg-coolGray-400 text-green-400 min-h-screen flex flex-col items-center font-dosis"
       id="stack"
     >
       
@@ -23,7 +23,7 @@ export default function Stack() {
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl text-xl bg-green-500 text-center mt-10">
+      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10">
         {content.stack.desc}
       </p>
     </div>
